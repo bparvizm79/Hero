@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 100vh;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: gray;
+}
+.header_nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.header_nav ul li{
+    padding-left: 100px;
+}
+.header_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header_main_text p{
+    width: 500px;
+    margin-left: 0px;
+}
+.header_main_img{
+    width: 500px;
+}
+.header_main_img img{
+    width: 100%;
+}
+button{
+    background: blue;
+    padding: 10px 15px;
+    color: #fff;
+}
+#cards{
+    margin: 150px;
+}
+.cards_title{
+    width: 940px;
+    margin-left: 350px;
+}
+.cards_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.card_left{
+    width: 300px;
+}
+.card_left img{
+    width: 100%;
+}
+.card_center{
+    width: 300px;
+}
+.card_center img{
+    width: 100%;
+}
+.card_right{
+    width: 300px;
+}
+.card_right img{
+    width: 100%;
+}
+#subscribe{
+    width: 1000px;
+    margin: 0 auto;
+}
+.subscribe_main h1{
+    width: 200px;
+    margin: 0 auto;
+}
+.subscribe_main h2{
+    width: 200px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 20px;
+}
+.subscribe_main input{
+    width: 300px;
+    margin-left: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+#feedback{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.contact_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedback_input{
+    width: 48%;
+}
+.feedback_input input{
+    width: 100%;
+}
+.feedback_text{
+    width: 100%;
+}
+.feedback_text textarea{
+    width: 100%;
+    height: 70px;
+    resize: none;
+}
+.feedback_button{
+    margin-top: 5px;
+    background: blue;
+    color: #fff;
+}
+#footer{
+    padding: 50px 0;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.footer_main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer_info{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+.footer_info-card{
+    list-style: none;
+}
